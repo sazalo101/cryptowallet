@@ -3,7 +3,7 @@ const cors = require('cors');
 const { ethers } = require('ethers');
 const sqlite3 = require('sqlite3').verbose();
 
-const INFURA_PROJECT_ID = 'c64c21b67e3d4e5797eb03cacf7ca15d';  // Replace with your Infura project ID
+const INFURA_PROJECT_ID = '';  // Replace with your Infura project ID
 const INFURA_URL = `https://mainnet.infura.io/v3/${INFURA_PROJECT_ID}`;
 
 const app = express();
